@@ -1,0 +1,21 @@
+zebra:
+    epochs: 50
+    eval_freq: 5
+    batch_size: 2
+    patch_size: 4
+    image_size: 600
+    crop_size: 512
+    learning_rate: 0.00009
+    label_smoothing_factor: 0.1
+    num_classes: 64
+
+voc:
+    epochs: 50
+    eval_freq: 5
+    batch_size: 2
+    patch_size: 4
+    image_size: 520
+    crop_size: 512
+    learning_rate: 0.00009
+    label_smoothing_factor: 0.1
+    num_classes: 21

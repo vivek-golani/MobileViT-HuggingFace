@@ -1,0 +1,8 @@
+Install dependencies:
+python3 -m pip install -r requirements.txt
+
+To train model on Zebra dataset:
+CUDA_VISIBLE_DEVICES=0 python3 train.py -m mobilevit_small -d zebra
+
+To reproduce results on VOC dataset from paper:
+CUDA_VISIBLE_DEVICES=0 python3 inference.py -m mobilevit_small -d voc
